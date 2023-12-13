@@ -2,6 +2,11 @@
 [![Dependency Status](https://david-dm.org/bitpay/cordova-plugin-qrscanner.svg)](https://david-dm.org/bitpay/cordova-plugin-qrscanner)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
+
+- android.permission.CAMERA 权限已被注释，后续需要按需加载。（注释掉以解决冲突问题）
+  - <uses-permission android:name="android.permission.CAMERA" android:required="false" />
+
+
 # cordova-plugin-qrscanner
 A fast, energy efficient, highly-configurable QR code scanner for Cordova apps – available for the iOS, Android, Windows, and browser platforms.
 
