@@ -203,8 +203,8 @@ class QRScanner : CDVPlugin, AVCaptureMetadataOutputObjectsDelegate {
 
     @objc func makeOpaque(){
         self.webView?.isOpaque = true
-        self.webView?.backgroundColor = UIColor.white
-        self.webView?.scrollView.backgroundColor = UIColor.white
+        self.webView?.backgroundColor = UIColor.clear
+        self.webView?.scrollView.backgroundColor = UIColor.clear
     }
 
     @objc func boolToNumberString(bool: Bool) -> String{
